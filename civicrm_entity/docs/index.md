@@ -76,17 +76,17 @@ CiviCRM Entity Price Set field provides a new field type to your Drupal installa
 
 When configured to display on the Event view pages, this field generates an Ajax powered registration form that supports:
 
--Registering multiple Participants
--Uses the event’s price set and all price fields of any type
--Pay later or credit card transactions utilizing CiviCRM’s payment processing
--Supports free events
--Renders and submits the CiviCRM Profiles configured for the event
--Default values for the profile fields corresponding to the logged in user’s contact information
--Customizable Ajax confirmation and thank you panes
--Utilizes the event’s settings such as “Is paid event?”, dedupe rules, etc..
--Test or Live transactions
--Supports the events Max Participants setting
--Customizable with hooks, standard Drupal theme practices
+- Registering multiple Participants
+- Uses the event’s price set and all price fields of any type
+- Pay later or credit card transactions utilizing CiviCRM’s payment processing
+- Supports free events
+- Renders and submits the CiviCRM Profiles configured for the event
+- Default values for the profile fields corresponding to the logged in user’s contact information
+- Customizable Ajax confirmation and thank you panes
+- Utilizes the event’s settings such as “Is paid event?”, dedupe rules, etc..
+- Test or Live transactions
+- Supports the events Max Participants setting
+- Customizable with hooks, standard Drupal theme practices
 
 This field provides a default, simple price set edit widget, which allows admins to edit the first price field in the price set.  Further development is necessary to allow edting all properties and price fields of the set but foundation is laid.
 
